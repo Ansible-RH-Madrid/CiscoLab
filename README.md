@@ -17,7 +17,7 @@ sudo /tmp/tower_install/setup.sh -r
 ```
 - Refresh your inventory 
 ```
-sudo awx-manage inventory_import --inventory-name Inventory --source ~/networking-workshop/lab_inventory/hosts
+udo awx-manage inventory_import --inventory-name "Cisco lab inventory" --source ~/networking-workshop/lab_inventory/hosts
 ```
 - Using your browser, connect to Tower and login with
 ```
